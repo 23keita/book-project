@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet : Refonte BDD pour TechCorp - Booklite</title>
+    <meta name="description" content="Découvrez en détail le projet de refonte de la base de données pour TechCorp, axé sur l'optimisation et la performance.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Booklite</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="projets.html" class="nav-link active">Projets</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="index.html#pourquoi-nous" class="nav-link">Pourquoi nous ?</a></li>
+                <li class="nav-item"><a href="index.html#temoignages" class="nav-link">Témoignages</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+             <div class="nav-social">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Découvrez nos projets sur GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="nav-controls">
+                <!-- Interrupteur Mode Sombre -->
+                <label class="theme-switcher">
+                    <input type="checkbox" id="theme-toggle" aria-label="Activer le mode sombre" title="Activer le mode sombre">
+                    <span class="slider"></span>
+                </label>
+                <button class="hamburger" aria-label="Ouvrir le menu de navigation" aria-controls="nav-menu" aria-expanded="false">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Refonte BDD pour TechCorp</h1>
+                <p class="page-subtitle">Optimisation des performances et scalabilité</p>
+            </div>
+        </section>
+
+        <section class="project-detail-section">
+            <div class="container">
+                <div class="project-detail-grid">
+                    <!-- Main Content -->
+                    <div class="project-detail-content">
+                        <img src="https://via.placeholder.com/800x450.png?text=TechCorp+Projet" alt="Image principale du projet TechCorp" class="project-main-image" loading="lazy" decoding="async" width="800" height="450">
+                        
+                        <h2>Le Défi</h2>
+                        <p>TechCorp faisait face à des lenteurs critiques sur son application principale dues à une base de données vieillissante et mal structurée. Les temps de réponse augmentaient, impactant l'expérience utilisateur et la capacité de l'entreprise à évoluer.</p>
+                        
+                        <h2>Notre Solution</h2>
+                        <p>Nous avons mené un audit complet de l'existant avant de proposer une refonte totale basée sur la méthode Merise. Le processus a inclus :</p>
+                        <ul>
+                            <li>La création d'un Modèle Conceptuel de Données (MCD) en collaboration avec les équipes métier de TechCorp pour capturer précisément leurs besoins.</li>
+                            <li>La dérivation d'un Modèle Logique de Données (MLD) optimisé pour leur SGBD.</li>
+                            <li>La réécriture des requêtes complexes et l'ajout d'index pertinents pour accélérer les accès aux données.</li>
+                        </ul>
+
+                        <h2>Résultats</h2>
+                        <p>La nouvelle architecture a permis une <strong>réduction de 70% des temps de chargement</strong> des pages critiques. La base de données est maintenant plus facile à maintenir et prête à supporter la croissance future de TechCorp.</p>
+
+                        <h3>Galerie du projet</h3>
+                        <div class="interactive-gallery">
+                            <div class="gallery-main-image">
+                                <picture>
+                                    <source srcset="images/projects/gallery/mcd-avant.webp" type="image/webp">
+                                    <img src="images/projects/gallery/mcd-avant.jpg" alt="Ancien MCD">
+                                </picture>
+                                <button class="gallery-nav-btn prev" aria-label="Image précédente"><i class="fas fa-chevron-left"></i></button>
+                                <button class="gallery-nav-btn next" aria-label="Image suivante"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="gallery-thumbnails">
+                                <a href="images/projects/gallery/mcd-avant.jpg" data-webp="images/projects/gallery/mcd-avant.webp" class="gallery-thumbnail active">
+                                    <picture>
+                                        <source srcset="images/projects/gallery/mcd-avant-thumb.webp" type="image/webp">
+                                        <img src="images/projects/gallery/mcd-avant-thumb.jpg" alt="Ancien MCD">
+                                    </picture>
+                                </a>
+                                <a href="images/projects/gallery/mcd-apres.jpg" data-webp="images/projects/gallery/mcd-apres.webp" class="gallery-thumbnail">
+                                    <picture>
+                                        <source srcset="images/projects/gallery/mcd-apres-thumb.webp" type="image/webp">
+                                        <img src="images/projects/gallery/mcd-apres-thumb.jpg" alt="Nouveau MCD">
+                                    </picture>
+                                </a>
+                                <a href="images/projects/gallery/benchmark.jpg" data-webp="images/projects/gallery/benchmark.webp" class="gallery-thumbnail">
+                                    <picture>
+                                        <source srcset="images/projects/gallery/benchmark-thumb.webp" type="image/webp">
+                                        <img src="images/projects/gallery/benchmark-thumb.jpg" alt="Benchmark de performance">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <aside class="project-detail-sidebar">
+                        <div class="project-info-box">
+                            <h3>Infos Projet</h3>
+                            <ul>
+                                <li><strong>Client:</strong> TechCorp</li>
+                                <li><strong>Date:</strong> Mai 2024</li>
+                                <li><strong>Services:</strong>
+                                    <span class="tag">Optimisation</span>
+                                    <span class="tag">MCD/MLD</span>
+                                </li>
+                                <li><strong>Technologies:</strong>
+                                    <span class="tag">PostgreSQL</span>
+                                    <span class="tag">Merise</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="cta-button">Lancer un projet similaire</a>
+                    </aside>
+                </div>
+
+                <nav class="project-navigation">
+                    <a href="#" class="prev-project" style="visibility: hidden;">&larr; Projet Précédent</a>
+                    <a href="projets.html" class="all-projects">Voir tous les projets</a>
+                    <a href="projet-beta.html" class="next-project">Projet Suivant &rarr;</a>
+                </nav>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p class="footer-copyright">&copy; 2024 Booklite. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Suivez-nous sur LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Découvrez nos projets sur GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <nav class="footer-nav">
+                <a href="politique-confidentialite.html">Politique de confidentialité</a>
+            </nav>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top-btn" class="back-to-top-btn" aria-label="Retour en haut de la page"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+
+    <script src="js/main.js?v=1.0" defer></script>
+</body>
+</html>

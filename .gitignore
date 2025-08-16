@@ -1,0 +1,38 @@
+# Dépendances
+# Ne jamais versionner les dépendances, elles doivent être installées via un gestionnaire de paquets.
+/node_modules/
+
+# Dossiers de build
+# Dossiers générés par les outils de build (ex: Webpack, Parcel, Vite).
+/dist/
+/build/
+/.parcel-cache/
+
+# Fichiers de configuration des éditeurs et IDE
+# Ces fichiers sont spécifiques à l'environnement de chaque développeur.
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Fichiers système
+# Fichiers générés par les systèmes d'exploitation (macOS, Windows).
+.DS_Store
+Thumbs.db
+
+# Fichiers de log
+# Les logs ne doivent pas être inclus dans le dépôt.
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Fichiers d'environnement
+# Ces fichiers contiennent des informations sensibles (clés d'API, mots de passe).
+# Ils ne doivent JAMAIS être partagés.
+.env
+.env.local
+.env.*.local

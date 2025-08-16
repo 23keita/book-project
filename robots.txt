@@ -1,0 +1,9 @@
+# Indique que les règles s'appliquent à tous les robots d'exploration.
+User-agent: *
+
+# Autorise l'exploration de l'ensemble du site.
+Allow: /
+
+# Indique l'emplacement du plan de site (sitemap).
+# Remplacez "www.votre-domaine.fr" par votre nom de domaine réel.
+Sitemap: https://www.votre-domaine.fr/sitemap.xml

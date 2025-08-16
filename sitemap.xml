@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--
+  REMARQUE :
+  - Remplacez "https://www.votre-domaine.fr" par l'URL réelle de votre site.
+  - Mettez à jour la date <lastmod> lorsque vous modifiez une page.
+-->
+<url>
+  <loc>https://www.votre-domaine.fr/index.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/projets.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/blog.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/contact.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/projet-alpha.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/projet-beta.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/projet-gamma.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/projet-delta.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/post-1.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://www.votre-domaine.fr/politique-confidentialite.html</loc>
+  <lastmod>2024-07-16T12:00:00+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+
+</urlset>
