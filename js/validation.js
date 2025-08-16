@@ -47,12 +47,16 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
 
-        // NOTE POUR RECAPTCHA : Si vous réactivez reCAPTCHA dans contact.html,
-        // vous devrez ajouter la logique de validation ici. Par exemple :
-        // const recaptchaResponse = grecaptcha.getResponse();
-        // if (!recaptchaResponse) {
-        //     // Affichez un message d'erreur pour le reCAPTCHA
-        //     isValid = false;
+        // Valider reCAPTCHA
+        const recaptchaResponse = grecaptcha.getResponse();
+        const recaptchaError = document.getElementById('recaptcha-error');
+        if (recaptchaError && !recaptchaResponse) {
+            recaptchaError.textContent = 'Veuillez cocher la case "Je ne suis pas un robot".';
+            isValid = false;
+        } else if (recaptchaError) {
+            recaptchaError.textContent = '';
+        }
+
         return isValid;
     }
 
@@ -114,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function () {
             formStatus.textContent = 'Une erreur est survenue. Impossible d\'envoyer le message. Veuillez réessayer.';
             formStatus.className = 'error';
             submitButton.disabled = false;
+            if (typeof grecaptcha !== 'undefined') grecaptcha.reset(); // Réinitialise le reCAPTCHA en cas d'erreur
             submitButton.textContent = 'Envoyer le message';
         }
     });
