@@ -1,0 +1,7 @@
+# netlify.toml — pour site statique HTML/CSS/JS
+[build]
+  publish = "."    # si tes fichiers (index.html) sont à la racine du repo
+  command = ""     # pas de commande de build pour un site statique
+
+[context.production.environment]
+  NODE_ENV = "production"
